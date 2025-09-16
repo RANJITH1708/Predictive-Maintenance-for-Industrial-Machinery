@@ -20,7 +20,10 @@ Environment Setup: A virtual environment was created to manage project dependenc
 
 Exploratory Data Analysis (EDA): An initial analysis was performed to understand the data's structure. Key findings included a significant class imbalance (only 3.4% of instances were failures) and strong correlations between certain features. A pairplot visually confirmed that failures tend to occur in a "danger zone" of high torque and low rotational speed.
 
-<img width="865" height="741" alt="image" src="https://github.com/user-attachments/assets/b9da33e6-f509-4168-afb4-77226357e866" />
+<img width="865" height="741" alt="image" src="https://github.com/user-attachments/assets/0ee55b54-186a-4926-850d-3edce890e261" />
+
+<img width="1489" height="490" alt="image" src="https://github.com/user-attachments/assets/6216dec5-3230-4838-a962-e8c1690032e2" />
+
 
 
 ## Feature Engineering:
@@ -50,11 +53,12 @@ Precision: 100% (There were zero false alarms).
 
 Missed Failures (False Negatives): Only 3.
 
-<img width="576" height="432" alt="image" src="https://github.com/user-attachments/assets/11ef4721-eb38-4b6e-90ef-3f0acff7b130" />
+<img width="576" height="432" alt="image" src="https://github.com/user-attachments/assets/c5f20333-312b-42ca-b99a-e3b7d72d7f27" />
+
 
 
 ## Feature Importance: SHAP analysis confirmed the findings from EDA. The most influential features in predicting failure were Torque, Rotational Speed, our engineered Power feature, and specific failure type flags.
-<img width="778" height="700" alt="image" src="https://github.com/user-attachments/assets/3f1ee635-d978-4501-bf84-aec266f5da37" />
+<img width="778" height="700" alt="image" src="https://github.com/user-attachments/assets/7c73c7ab-1bfb-4c75-91cb-1b9e6bba55fb" />
 
 
 ## Tools & Technologies
